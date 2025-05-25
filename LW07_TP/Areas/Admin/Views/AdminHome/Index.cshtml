@@ -1,0 +1,8 @@
+@{
+    ViewData["Title"] = "Область Admin";
+}
+<!-- Представление области Admin. Ссылка вызывает метод Start0 контроллера My с передачей uvar -->
+<h2>Это область Admin</h2>
+<p>
+    @Html.ActionLink("Вызвать Start0 контроллера My с uvar = AdminArea", "Start0", "My", new { uvar = "AdminArea" }, null)
+</p> 
